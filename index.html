@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="smallcircle">
+      <img class="staricon" src="./images/icon-star.svg" alt="">
+    </div>
+    <p class="how">How did we do?</p>
+    <p class="longp">Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!</p>
+    <div class="buttonrow">
+      <button id="but1" class="mybut">1</button>
+      <button id="but2" class="mybut">2</button>
+      <button id="but3" class="mybut">3</button>
+      <button id="but4" class="mybut">4</button>
+      <button id="but5" class="mybut">5</button>
+    </div>
+    <div class="submitrow">
+      <button id="mysubbut" class="submitbut">S U B M I T</button>
+    </div>
+  </div>
+
+
+  <div class="aftersubmit">
+    <img class="thanksicon" src="./images/illustration-thank-you.svg" alt="">
+    <div class="resultrow">
+      <p class="resulttext"></p>
+    </div>
+    <p class="thankyou">Thank you!</p>
+    <p class="longp2">We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!</p>
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
